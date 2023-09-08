@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jpg">
+    <title>Purchase Website</title>
+</head>
+<body>
+    <header>
+        <h1>🛍️ OnlinE BazzaaR</h1>
+
+    <div  id="checkouting" style="text-align: center; color: black;">
+        <h2>🛒Shopping Cart</h2>
+        <ul id="cart">
+            <!-- Cart items will be added dynamically using JavaScript -->
+        </ul>
+        <p>Total: <span id="total">₹0.00</span></p>
+        <button onclick="checkout()">Checkout</button></div></header>
+
+    <main>
+        <section class="product">
+            <img src="1.webp" alt="Product 1">
+            <h2>Tele Phone</h2>
+            <p>Price: ₹4999/-</p>
+            <button onclick="addToCart('Tele Phone', 4999)">Add to Cart</button>
+        </section>
+        
+        <section class="product">
+            <img src="2.webp" alt="Product 2">
+            <h2>Tele Phone</h2>
+            <p>Price: ₹9999/-</p>
+            <button onclick="addToCart('Tele Phone', 9999)">Add to Cart</button>
+        </section>
+        
+        <section class="product">
+            <img src="3.webp" alt="Product 3">
+            <h2>Button Mobile</h2>
+            <p>Price: ₹1550/-</p>
+            <button onclick="addToCart('Button Mobile', 1550)">Add to Cart</button>
+        </section>
+        
+        <section class="product">
+            <img src="4.webp" alt="Product 4">
+            <h2>Redmi 12</h2>
+            <p>Price: ₹13,999/-</p>
+            <button onclick="addToCart('Redmi 12', 13999)">Add to Cart</button>
+        </section>
+        
+        <section class="product">
+            <img src="5.webp" alt="Product 5">
+            <h2>Apple I phone</h2>
+            <p>Price: ₹59,999/-</p>
+            <button onclick="addToCart('Apple I phone', 59999)">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="6.webp" alt="Product 3">
+            <h2>Smart Watch</h2>
+            <p>Price: ₹1999/-</p>
+            <button onclick="addToCart('Smart Watch', 1999)">Add to Cart</button>
+        </section>
+        
+        <section class="product">
+            <img src="7.webp" alt="Product 4">
+            <h2>Headset</h2>
+            <p>Price: ₹850/-</p>
+            <button onclick="addToCart('Headset', 850)">Add to Cart</button>
+        </section>
+        
+        <section class="product">
+            <img src="8.webp" alt="Product 5">
+            <h2>Air Pod</h2>
+            <p>Price: ₹1999/-</p>
+            <button onclick="addToCart('Air Pod', 1999)">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="9.webp" alt="Product 4">
+            <h2>HP Laptop</h2>
+            <p>Price: ₹55,000/-</p>
+            <button onclick="addToCart('HP Laptop', 55000)">Add to Cart</button>
+        </section>
+        
+        <section class="product">
+            <img src="10.webp" alt="Product 5">
+            <h2>LED TV</h2>
+            <p>Price: ₹30,000/-</p>
+            <button onclick="addToCart('LED TV', 30000)">Add to Cart</button>
+        </section>
+    </main>
+    
+    <div class="center">
+        <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+        </div>
+      </div>
+    <hr>
+      <center style="background-color:black; color: beige; padding: 25px;">
+        <h3>Contact Us</h3>
+        <a href="#" style="color: white;">+91-997239227 |<a href="#" style="color: aliceblue;"> Chat Us</a>
+      </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
